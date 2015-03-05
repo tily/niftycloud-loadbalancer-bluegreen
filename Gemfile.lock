@@ -1,0 +1,20 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    httparty (0.10.0)
+      multi_json (~> 1.0)
+      multi_xml
+    multi_json (1.10.1)
+    multi_xml (0.5.5)
+    nifty-cloud-sdk (1.11.beta5)
+      xml-simple (>= 1.0.12)
+    thor (0.19.1)
+    xml-simple (1.1.5)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  httparty
+  nifty-cloud-sdk (= 1.11.beta5)
+  thor
